@@ -1,0 +1,188 @@
+[debug] [2024-01-17T09:00:40.031Z] ----------------------------------------------------------------------
+[debug] [2024-01-17T09:00:40.039Z] Command:       /usr/bin/node /usr/bin/firebase init hosting
+[debug] [2024-01-17T09:00:40.040Z] CLI Version:   13.0.3
+[debug] [2024-01-17T09:00:40.041Z] Platform:      linux
+[debug] [2024-01-17T09:00:40.041Z] Node Version:  v21.5.0
+[debug] [2024-01-17T09:00:40.042Z] Time:          Wed Jan 17 2024 11:00:40 GMT+0200 (South Africa Standard Time)
+[debug] [2024-01-17T09:00:40.042Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-17T09:00:40.240Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-17T09:00:40.242Z] > authorizing via signed-in user (kea.motlhankane@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/kealeboga/Desktop
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-17T09:00:40.255Z] Using project from CLI flag: keas-portfolio-website
+[debug] [2024-01-17T09:00:40.266Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website [none]
+[debug] [2024-01-17T09:00:41.225Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website 200
+[debug] [2024-01-17T09:00:41.226Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website {"projectId":"keas-portfolio-website","projectNumber":"281237667392","displayName":"keas-portfolio-website","name":"projects/keas-portfolio-website","resources":{"hostingSite":"keas-portfolio-website"},"state":"ACTIVE","etag":"1_dba492a6-a3b8-4dce-99b4-49ebc568aea1"}
+[info] i  Using project keas-portfolio-website (keas-portfolio-website) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-17T09:00:41.251Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website [none]
+[debug] [2024-01-17T09:00:41.703Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website 200
+[debug] [2024-01-17T09:00:41.704Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website {"projectId":"keas-portfolio-website","projectNumber":"281237667392","displayName":"keas-portfolio-website","name":"projects/keas-portfolio-website","resources":{"hostingSite":"keas-portfolio-website"},"state":"ACTIVE","etag":"1_dba492a6-a3b8-4dce-99b4-49ebc568aea1"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-01-17T09:04:19.428Z] ----------------------------------------------------------------------
+[debug] [2024-01-17T09:04:19.437Z] Command:       /usr/bin/node /usr/bin/firebase init hosting
+[debug] [2024-01-17T09:04:19.439Z] CLI Version:   13.0.3
+[debug] [2024-01-17T09:04:19.439Z] Platform:      linux
+[debug] [2024-01-17T09:04:19.440Z] Node Version:  v21.5.0
+[debug] [2024-01-17T09:04:19.441Z] Time:          Wed Jan 17 2024 11:04:19 GMT+0200 (South Africa Standard Time)
+[debug] [2024-01-17T09:04:19.441Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-17T09:04:19.627Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-17T09:04:19.629Z] > authorizing via signed-in user (kea.motlhankane@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/kealeboga/Desktop
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-17T09:04:19.640Z] Using project from CLI flag: keas-portfolio-website
+[debug] [2024-01-17T09:04:19.650Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website [none]
+[debug] [2024-01-17T09:04:20.506Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website 200
+[debug] [2024-01-17T09:04:20.507Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website {"projectId":"keas-portfolio-website","projectNumber":"281237667392","displayName":"keas-portfolio-website","name":"projects/keas-portfolio-website","resources":{"hostingSite":"keas-portfolio-website"},"state":"ACTIVE","etag":"1_dba492a6-a3b8-4dce-99b4-49ebc568aea1"}
+[info] i  Using project keas-portfolio-website (keas-portfolio-website) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-17T09:04:20.554Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website [none]
+[debug] [2024-01-17T09:04:29.283Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website 200
+[debug] [2024-01-17T09:04:29.283Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website {"projectId":"keas-portfolio-website","projectNumber":"281237667392","displayName":"keas-portfolio-website","name":"projects/keas-portfolio-website","resources":{"hostingSite":"keas-portfolio-website"},"state":"ACTIVE","etag":"1_dba492a6-a3b8-4dce-99b4-49ebc568aea1"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-01-17T09:06:19.062Z] ----------------------------------------------------------------------
+[debug] [2024-01-17T09:06:19.069Z] Command:       /usr/bin/node /usr/bin/firebase init hosting
+[debug] [2024-01-17T09:06:19.070Z] CLI Version:   13.0.3
+[debug] [2024-01-17T09:06:19.071Z] Platform:      linux
+[debug] [2024-01-17T09:06:19.072Z] Node Version:  v21.5.0
+[debug] [2024-01-17T09:06:19.072Z] Time:          Wed Jan 17 2024 11:06:19 GMT+0200 (South Africa Standard Time)
+[debug] [2024-01-17T09:06:19.073Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-17T09:06:19.259Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-17T09:06:19.261Z] > authorizing via signed-in user (kea.motlhankane@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/kealeboga/Desktop
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-17T09:06:19.274Z] Using project from CLI flag: keas-portfolio-website
+[debug] [2024-01-17T09:06:19.285Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website [none]
+[debug] [2024-01-17T09:06:20.131Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website 200
+[debug] [2024-01-17T09:06:20.132Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website {"projectId":"keas-portfolio-website","projectNumber":"281237667392","displayName":"keas-portfolio-website","name":"projects/keas-portfolio-website","resources":{"hostingSite":"keas-portfolio-website"},"state":"ACTIVE","etag":"1_dba492a6-a3b8-4dce-99b4-49ebc568aea1"}
+[info] i  Using project keas-portfolio-website (keas-portfolio-website) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-17T09:06:20.156Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website [none]
+[debug] [2024-01-17T09:06:20.611Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website 200
+[debug] [2024-01-17T09:06:20.612Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/keas-portfolio-website {"projectId":"keas-portfolio-website","projectNumber":"281237667392","displayName":"keas-portfolio-website","name":"projects/keas-portfolio-website","resources":{"hostingSite":"keas-portfolio-website"},"state":"ACTIVE","etag":"1_dba492a6-a3b8-4dce-99b4-49ebc568aea1"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-01-17T09:18:49.089Z] ----------------------------------------------------------------------
+[debug] [2024-01-17T09:18:49.096Z] Command:       /usr/bin/node /usr/bin/firebase init hosting
+[debug] [2024-01-17T09:18:49.097Z] CLI Version:   13.0.3
+[debug] [2024-01-17T09:18:49.098Z] Platform:      linux
+[debug] [2024-01-17T09:18:49.098Z] Node Version:  v21.5.0
+[debug] [2024-01-17T09:18:49.099Z] Time:          Wed Jan 17 2024 11:18:49 GMT+0200 (South Africa Standard Time)
+[debug] [2024-01-17T09:18:49.100Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-17T09:18:49.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-17T09:18:49.293Z] > authorizing via signed-in user (kea.motlhankane@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/kealeboga/Desktop
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-17T09:18:49.305Z] Using project from CLI flag: portfolio-website-kea
+[debug] [2024-01-17T09:18:49.314Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-kea [none]
+[debug] [2024-01-17T09:18:50.186Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-kea 200
+[debug] [2024-01-17T09:18:50.187Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-kea {"projectId":"portfolio-website-kea","projectNumber":"785101359745","displayName":"Portfolio-website-kea","name":"projects/portfolio-website-kea","resources":{"hostingSite":"portfolio-website-kea"},"state":"ACTIVE","etag":"1_eab60821-d8f4-40e0-ac95-c93ebbf34dbf"}
+[info] i  Using project portfolio-website-kea (Portfolio-website-kea) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-17T09:18:50.210Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-kea [none]
+[debug] [2024-01-17T09:18:50.661Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-kea 200
+[debug] [2024-01-17T09:18:50.661Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-kea {"projectId":"portfolio-website-kea","projectNumber":"785101359745","displayName":"Portfolio-website-kea","name":"projects/portfolio-website-kea","resources":{"hostingSite":"portfolio-website-kea"},"state":"ACTIVE","etag":"1_eab60821-d8f4-40e0-ac95-c93ebbf34dbf"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
