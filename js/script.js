@@ -8,6 +8,33 @@ menuIcon.onclick = () => {
 };
 
 
+/*========== cursor javaScript ==========*/
+
+const cursor = document.querySelector(".cursor");
+var timeout;
+
+//follow cursor on mousemove
+window.addEventListener("mousemove", (e) => {
+    const x = e.pageX;
+    const y = e.clientY;
+
+    cursor.style.top = y + "px";
+    cursor.style.left = x + "px";
+    cursor.style.display = "block";
+
+    //cursor effects when mouse stopped
+    // function mouseStopped() {
+    //     cursor.style.display = "none";
+    // }
+    clearTimeout(timeout);
+    timeout = setTimeout(mouseStopped, 5000);
+});
+
+//cursor effects when mouseout
+window.addEventListener("mouseout", () => {
+    cursor.style.display = "none";
+});
+
 /*========== scroll sections active link ==========*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
